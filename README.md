@@ -1,2 +1,2 @@
-# NECOwatercolumn_upd
-Updated version of nitrogen-based water column ecosystem model
+# NECOwatercolumn
+This model is modified based on the publishcation of Zakem (https://github.com/emilyzakem/eco-watercolumn), including 2 phytoplanktons with different nutrient preference, and uptake threshold is settled for numerical stability. 2 types of heterotrophy and dissolved nitrogen are switched on in this model. Additionally, light inhibition on nitrifiers kinetics is explicitly parameterized for differentiate the controlling factor of light and substrate on the oxidized rate. This modified model, with ecological robustness, permits the ecosystem self-organized from unsteady state to quasi-steady state.
