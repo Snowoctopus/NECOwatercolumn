@@ -791,7 +791,7 @@ end do
 !phytopl uptake and growth rate:
 !inhibnh4 = exp(-amminhib*nh4_one) !from GUD
 !
-!  P3: uptake NOX
+!  P3: uptake NH4
 !
 ! limnh4p2=(nh4_one/(nh4_one+knh4p2))!*TempFun
 ! limno2p2=(no2_one/(no2_one+kno2p2))!*TempFun
@@ -851,7 +851,7 @@ do j=1,nz;jc=j+2;
 end do
 
 !-----------------
-!  P2: uptake NH4
+!  P2: uptake NOX
 !-----------------
 ! limnh4p3=(nh4_one/(nh4_one+knh4p3))!*TempFun
 ! limno2p3=(no2_one/(no2_one+kno2p3))!*TempFun
